@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semesters</title>
+    <link rel="stylesheet" href="about.css">
+    <script src="function.js"></script>
+</head>
+<body>
+    <style>
+
+		
+	
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+         *{
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+         }
+         body {
+             font-family: 'Poppins', sans-serif;
+             background-image: url("images/bg\ \(2\).jpg")
+         }
+         
+         h1{
+             font-size: 2.5rem;
+             font-weight: 700;
+             color:rgb(35, 35, 85);
+             cursor: pointer;
+         }
+         
+         span{
+             font-size: .9rem;
+             color:#757373;
+         
+         }
+         h6{
+             font-size: 1.1rem;
+             color: rgb(24, 24, 49);
+         }
+         
+         nav{
+             position: fixed;
+             width: 100%;
+             background-color: #cecece;
+             display: flex;
+             flex-direction: row;
+             justify-content: space-between;
+             align-items: center;
+             padding: 1vw 7vw;
+             box-shadow: 2px 2px 20px rgba(0,0,0,0.15);
+         
+         
+         
+         }
+         nav img{
+             width: 100px;
+             cursor: pointer;
+         }
+         nav .navigation ul{
+             display: flex;
+             justify-content: flex-end;
+             align-items: center;
+         
+         }
+         nav .navigation ul li{
+             list-style: none;
+             margin-left: 30px;
+         
+         }
+         nav .navigation ul li a{
+             text-decoration: none;
+             color: black;
+             font-size: 16px;
+             font-weight: 500;
+             transition: 0.3s ease;
+         }
+         
+         nav .navigation ul li a:hover{
+             color: gold;
+             }
+             .btn {
+          display: block;
+          color: rgb(22, 21, 21);
+          background-color: gold;
+          transition: 0.3s ease-in-out;
+          padding: 14px 20px;
+          font-weight: 600;
+          
+
+          cursor: pointer;
+          border-radius: 40px;
+
+          }
+          .btn:hover{
+              color:gold ;
+              background-color:rgb(0, 0, 0) ;
+              border-color: #ffffff;
+             }
+      
+          .button {
+                color: white;
+                padding-top: 10% ;
+              padding-left: 2%;
+                cursor: pointer; 
+                width: 20%; 
+                display: block; 
+          }
+      
+    </style>
+
+<nav>
+    
+    <img src="images/LOGO.svg">
+    <h1>Select your Semester</h1>
+        <div class= "navigation">
+            <ul>
+                <li><a href='./FAST_PAPERS.html'>Home</a></li>
+                <li><a href='#'>Department</a></li>
+                <li><a href='./about.html'>About Us</a></li>
+            </ul>
+            
+        </nav>
+        <div class="button">
+            <ul>
+                <li>
+                    
+                    <button  class="btn" onclick="semester1()">Semester 1</button> </a><br><br>
+                    
+                    <button  class="btn"  onclick="semester2()" >Semester 2</button> </a><br><br>
+                    
+                    <button  class="btn"  onclick="semester3()">Semester 3</button> </a><br><br>
+                    
+                    <button   class="btn" onclick="semester4()" >Semester 4</button> </a><br><br>
+                    
+                    <button class="btn"  onclick="semester5()" >Semester 5</button> </a><br><br>
+                    
+                    <button class="btn"  onclick="semester6()">Semester 6</button> </a><br><br>
+                    
+                    <button   class="btn" onclick="semester7()" >Semester 7</button> </a><br><br>
+                    
+                    <button class="btn"  onclick="semester8()" >Semester 8</button> </a><br><br>
+                </li>
+                
+            </ul>
+        </div>
+        <section class="footer">
+            <div class="footer-content">
+                <img src="./logo.svg">
+            </div>
+            <div class="footer-content">
+                <h4>Projects</h4>
+                <li><a href="#"></a>Past Papers</li>
+                <li><a href="#"></a>Study Materials</li>
+            </div>
+            <div class="footer-content">
+                <h4>Our Team</h4>
+                <li><a href="#"></a>How we work</li>
+                <li><a href="#"></a>Security</li>
+            </div>
+            <div class="footer-content">
+                <h4>About</h4>
+                <li><a href="#"></a>Contact Us</li>
+            </div>
+            <div class="footer-content">
+                <h4>Help</h4>
+                <li><a href="#"></a>Privacy</li>
+                <li><a href="#"></a>Conditions</li>
+                <li><a href="#"></a>FAQs</li>
+            </div>
+    
+        </section>
+</body>
+</html>
