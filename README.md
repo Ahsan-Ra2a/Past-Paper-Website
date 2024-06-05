@@ -6,4 +6,4 @@ Start download this repository by zip folder or you can run the command in cmd t
 ```
 git clone https://github.com/Ahsan-Ra2a/Past-Paper-Website.git
 ```
-After download you can run the file for main interface which is "Fastpaper" it contains front home desgin of the website 
+After download you can run the file for main interface which is "Fastpaper.html" it contains front home desgin of the website 
